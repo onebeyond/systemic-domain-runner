@@ -18,7 +18,7 @@ module.exports = function(system, options) {
         })
 
         domain.run(function() {
-            underlyingRunner = (options.runner || require('systemic-service-runner'))(system, options)
+            underlyingRunner = (options && options.runner || require('systemic-service-runner'))(system, options)
             underlyingRunner.start(cb)
         })
     }
