@@ -4,7 +4,7 @@ module.exports = function(system, options) {
 
     if (!system) throw new Error('system is required')
 
-    var logger = options.logger || console
+    var logger = options && options.logger || console
     var underlyingRunner
 
     function start(cb) {
