@@ -10,8 +10,8 @@ module.exports = function(system, options) {
     function start(cb) {
 
         domain.on('error', function(err){
-            logger.error('Unhandled exception. Invoking shutdown.')
-            logger.error(err.stack)
+            logger.error('Unhandled domain exception. Invoking shutdown.')
+            if (err) logger.error(err.stack)
             underlyingRunner.stop(function() {
                 process.exit(1)
             })
