@@ -15,7 +15,7 @@
   "author": "GuideSmiths Ltd",
   "license": "ISC",
   "dependencies": {
-    "systemic-service-runner": "^0.1.2"
+    "systemic-service-runner": "^1.0.0"
   },
   "devDependencies": {
     "systemic": "^0.1.3"
