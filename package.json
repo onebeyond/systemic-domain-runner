@@ -13,7 +13,7 @@
     "Runner"
   ],
   "author": "GuideSmiths Ltd",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "systemic-service-runner": "^1.1.0"
   },
