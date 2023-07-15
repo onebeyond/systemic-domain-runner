@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/293e99309826741b92d4/maintainability)](https://codeclimate.com/github/onebeyond/systemic-domain-runner/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/293e99309826741b92d4/test_coverage)](https://codeclimate.com/github/onebeyond/systemic-domain-runner/test_coverage)
+
 # Systemic Domain Runner
 Starts [systemic](https://github.com/guidesmiths/systemic) systems within a domain
 
